@@ -60,6 +60,23 @@ The browser-only MVP stores only selected role and language in `localStorage`. N
 
 Open the localhost URL printed by Vite. Never commit `.env`.
 
+## Testing
+
+Run the automated unit and component tests with:
+
+```bash
+npm test
+```
+
+The Vitest suite checks simulation boundaries and incident rotation, mocks the Gemini wrapper's success and failure paths, and confirms the Fan, Volunteer, and Organizer pages render their key controls.
+
+## Quality & Security
+
+- Semantic landmarks, explicit form labels, keyboard-visible focus rings, improved contrast, and live regions improve accessibility.
+- Gemini configuration errors are presented in-app instead of exposing technical details.
+- User text is sanitized and capped at 500 characters before it enters a prompt; interactive AI actions have a short client-side cooldown.
+- `.env` remains ignored by Git. See [SECURITY.md](SECURITY.md) for MVP key-handling and data-safety boundaries.
+
 ## Deploy to Vercel
 
 1. Push this folder to GitHub and import it into Vercel.
