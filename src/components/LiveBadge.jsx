@@ -1,1 +1,11 @@
-export default function LiveBadge({ label = 'Live data' }) { return <span className="inline-flex items-center gap-2 rounded-full bg-emerald-50 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-emerald-700"><span className="live-dot"/>{label}</span> }
+/** Displays a consistent compact live-status marker across role pages. */
+/** @typedef {{ label?: string }} LiveBadgeProps */
+/** @param {LiveBadgeProps} props */
+export default function LiveBadge({ label = 'Live data' }) {
+  return (
+    <span className="inline-flex items-center gap-2 rounded-full bg-emerald-50 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-emerald-700">
+      <span className="live-dot" />
+      {label}
+    </span>
+  )
+}

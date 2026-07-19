@@ -1,8 +1,23 @@
 {
   "stadium": "Harbor City Stadium — FIFA World Cup 2026 demo venue, capacity 68,500",
-  "gates": [{"id":"Gate 1","area":"North Plaza","bestFor":"metro arrivals","accessible":true},{"id":"Gate 2","area":"North Plaza","bestFor":"general admission","accessible":false},{"id":"Gate 3","area":"East Promenade","bestFor":"supporter groups","accessible":false},{"id":"Gate 4","area":"East Promenade","bestFor":"VIP & media","accessible":true},{"id":"Gate 5","area":"South Village","bestFor":"family entry","accessible":true},{"id":"Gate 6","area":"South Village","bestFor":"general admission","accessible":false},{"id":"Gate 7","area":"West Transit Hub","bestFor":"park-and-ride","accessible":true},{"id":"Gate 8","area":"West Transit Hub","bestFor":"rideshare arrivals","accessible":false}],
+  "gates": [
+    { "id": "Gate 1", "area": "North Plaza", "bestFor": "metro arrivals", "accessible": true },
+    { "id": "Gate 2", "area": "North Plaza", "bestFor": "general admission", "accessible": false },
+    { "id": "Gate 3", "area": "East Promenade", "bestFor": "supporter groups", "accessible": false },
+    { "id": "Gate 4", "area": "East Promenade", "bestFor": "VIP & media", "accessible": true },
+    { "id": "Gate 5", "area": "South Village", "bestFor": "family entry", "accessible": true },
+    { "id": "Gate 6", "area": "South Village", "bestFor": "general admission", "accessible": false },
+    { "id": "Gate 7", "area": "West Transit Hub", "bestFor": "park-and-ride", "accessible": true },
+    { "id": "Gate 8", "area": "West Transit Hub", "bestFor": "rideshare arrivals", "accessible": false }
+  ],
   "zones": ["North Concourse", "East Promenade", "South Fan Village", "West Transit Hub", "Lower Bowl", "Upper Bowl"],
-  "amenities": ["Water refill stations at every concourse quadrant", "Prayer and quiet room in North Concourse near Gate 2", "First aid at East Promenade and Lower Bowl Section 112", "Family restrooms in all four concourses", "Merchandise flagship at South Fan Village"],
+  "amenities": [
+    "Water refill stations at every concourse quadrant",
+    "Prayer and quiet room in North Concourse near Gate 2",
+    "First aid at East Promenade and Lower Bowl Section 112",
+    "Family restrooms in all four concourses",
+    "Merchandise flagship at South Fan Village"
+  ],
   "accessibility": "Step-free routes are marked with green-and-gold signs. From Gate 12 / West Transit Hub use the covered Mobility Corridor to Gate 7, then Lift Bank W to any seating level. Mobility escorts can be requested at Gate 7 help point.",
   "transit": "Metro Blue Line Harbor Stadium stop is a 6-minute signed walk to Gates 1–2. Park-and-ride shuttles arrive at West Transit Hub for Gates 7–8. Rideshare pickup is at Cedar Loop, 9 minutes from Gate 8."
 }

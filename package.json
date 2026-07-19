@@ -1,5 +1,18 @@
 {
   "name": "stadium-pulse-ai",
+  "description": "GenAI-powered FIFA World Cup 2026 stadium operations and fan-experience platform.",
+  "keywords": [
+    "fifa-world-cup-2026",
+    "stadium-operations",
+    "gemini",
+    "generative-ai",
+    "accessibility"
+  ],
+  "author": "Sainadh",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sainadh-coder/stadiumpulse-ai.git"
+  },
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -7,7 +20,9 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "vitest run"
+    "test": "vitest run",
+    "lint": "eslint .",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@google/genai": "^1.30.0",
@@ -18,12 +33,18 @@
     "recharts": "^2.15.0"
   },
   "devDependencies": {
+    "@eslint/js": "^9.18.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.1.0",
     "@vitejs/plugin-react": "^4.3.4",
     "autoprefixer": "^10.4.20",
+    "eslint": "^9.18.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.18",
     "jsdom": "^25.0.1",
     "postcss": "^8.4.49",
+    "prettier": "^3.4.2",
     "tailwindcss": "^3.4.16",
     "vite": "^6.0.5",
     "vitest": "^2.1.9"

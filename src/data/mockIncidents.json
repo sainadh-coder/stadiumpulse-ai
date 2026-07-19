@@ -1,7 +1,32 @@
 [
-  {"title":"Water refill queue building","zone":"North Concourse","severity":"medium","detail":"Two refill points temporarily operating at reduced flow."},
-  {"title":"Lost child assistance requested","zone":"South Fan Village","severity":"high","detail":"Family support team dispatched; keep nearby walkways clear."},
-  {"title":"Escalator paused for inspection","zone":"East Promenade","severity":"low","detail":"Use adjacent stairs or lift bank E until cleared."},
-  {"title":"Shuttle arrival delay","zone":"West Transit Hub","severity":"medium","detail":"Next two park-and-ride shuttles are running approximately 6 minutes behind."},
-  {"title":"Medical support requested","zone":"Lower Bowl","severity":"high","detail":"Medical team attending Section 112; direct spectators to clear alternate aisle."}
+  {
+    "title": "Water refill queue building",
+    "zone": "North Concourse",
+    "severity": "medium",
+    "detail": "Two refill points temporarily operating at reduced flow."
+  },
+  {
+    "title": "Lost child assistance requested",
+    "zone": "South Fan Village",
+    "severity": "high",
+    "detail": "Family support team dispatched; keep nearby walkways clear."
+  },
+  {
+    "title": "Escalator paused for inspection",
+    "zone": "East Promenade",
+    "severity": "low",
+    "detail": "Use adjacent stairs or lift bank E until cleared."
+  },
+  {
+    "title": "Shuttle arrival delay",
+    "zone": "West Transit Hub",
+    "severity": "medium",
+    "detail": "Next two park-and-ride shuttles are running approximately 6 minutes behind."
+  },
+  {
+    "title": "Medical support requested",
+    "zone": "Lower Bowl",
+    "severity": "high",
+    "detail": "Medical team attending Section 112; direct spectators to clear alternate aisle."
+  }
 ]
